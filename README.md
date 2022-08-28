@@ -1,7 +1,7 @@
 
 # RedFeed:
 
-RedFeed demonstrates how to use Redis caching to increase efficiency in an AWS DynamoDB powered Serverless application.
+RedFeed demonstrates how to use Redis caching to increase efficiency in an AWS DynamoDB powered Serverless application faster.
 
 <br/>
 
