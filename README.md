@@ -1,7 +1,7 @@
 
 # RedFeed:
 
-RedFeed demonstrates how to use Redis caching to increase efficiency in an AWS DynamoDB powered Serverless application.
+RedFeed demonstrates how to use Redis caching to increase efficiency in an AWS DynamoDB powered Serverless application and make it load faster.
 
 <br/>
 
@@ -54,7 +54,7 @@ The API is a seeded dataset of crypto financial transactions. A transaction API 
             "By": "", 
             "Amount": "", 
             "Country": "", 
-            'Currency': "", 
+            "Currency": "", 
             "Created_At": "",
             "Bitcoin_Address": "", 
             "Updated_At": "",
@@ -66,7 +66,7 @@ The API is a seeded dataset of crypto financial transactions. A transaction API 
             "By": "", 
             "Amount": "", 
             "Country": "", 
-            'Currency': "", 
+            "Currency": "", 
             "Created_At": "",
             "Bitcoin_Address": "", 
             "Updated_At": "",
