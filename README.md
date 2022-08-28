@@ -25,7 +25,7 @@ _RedFeed's API:_
 
 _Video describing RedFeed:_
 
-[<img alt="RedFeed demonstrates the efficiency of using Redis in an AWS Serverless app" src="/public/docs/redis.png"/>](https://www.youtube.com/watch?v=wP)
+[<img alt="RedFeed demonstrates the efficiency of using Redis in an AWS Serverless app" src="/public/docs/redis.png"/>](https://www.youtube.com/watch?v=anUyyh1qJYo)
 
 <br/>
 
