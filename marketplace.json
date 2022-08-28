@@ -1,0 +1,24 @@
+{
+    "app_name": "RedFeed",  
+    "description": "RedFeed is a demonstration of the power of redis to create a feed request.", 
+    "hidden": "true",
+    "rank": "", 
+    "type": "Building Block", 
+    "contributed_by": "Asindu Drileba", 
+    "repo_url": "https://github.com/p2pteamz/RedFeed",
+    "download_url": "https://github.com/p2pteamz/RedFeed/archive/main.zip", 
+    "hosted_url": "", 
+    "quick_deploy": "", 
+    "deploy_buttons": [],
+    "language": ["JavaScript"], 
+    "redis_commands": ["SETEX"],
+    "redis_features": ["caching"],
+    "redis_modules": ["RediJSON"],
+    "app_image_urls": [
+        "https://github.com/p2pteamz/RedFeed/blob/main/docs/SD.png.png?raw=true"
+    ],
+    "youtube_url": "",
+    "special_tags": ["Hackathon"], 
+    "verticals": ["Financial"],
+    "markdown": "https://raw.githubusercontent.com/p2pteamz/RedFeed/master/README.md"
+}
