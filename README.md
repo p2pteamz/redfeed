@@ -233,3 +233,8 @@ To get page 2 of the API, send a GET request like;
 
 GET/ http://localhost:3000/dev/transactions?cur=BTC&cc=NG&lm=10&s=&pg=2
 
+</br>
+
+To get page 3 of the API, send a GET request like;
+
+GET/ http://localhost:3000/dev/transactions?cur=BTC&cc=NG&lm=10&s=&pg=3
