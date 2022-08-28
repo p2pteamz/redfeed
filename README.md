@@ -111,6 +111,16 @@ if (cachedResult) {
 
 ```
 
+If result is not cached, then store with Redis.
+
+```js
+
+if(!cachedResult){
+    await redis.set(page, resultStore);    
+}
+
+```
+
 <br/>
 
 ## Redis Performance is Faster:

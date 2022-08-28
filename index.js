@@ -37,7 +37,7 @@ const dynamoDB = new AWS.DynamoDB.DocumentClient({apiVersion: "2012-08-10",})
 //const dynamoDB = new AWS.DynamoDB({region: "region", credentials})
 
 // Transactions API
-app.get('/transactions', (req, res) => {
+app.get('/transactions', async (req, res) => {
 
     // Capture any parameters passed
     var currency = req.query.cur; // Get currency
@@ -118,7 +118,12 @@ app.get('/transactions', (req, res) => {
             resultStore.transactions.push(tObject);
 
           }); 
-          
+
+          // Cache result if not in redis storage
+          if(!cachedResult){
+            await redis.set(page, resultStore);
+          }
+              
           // Return RESTful JSON API      
           res.json(resultStore);        
 
