@@ -111,7 +111,7 @@ if (cachedResult) {
 
 ```
 
-If result is not cached, then store with Redis.
+If result is not cached, then store result with Redis.
 
 ```js
 
